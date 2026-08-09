@@ -1,0 +1,13 @@
+# Bytecode and cache
+__pycache__/
+*.pyc
+
+# Environment variables
+# .env
+
+# macOS
+.DS_Store
+data/.DS_Store
+
+# Temporary files
+temp_files/

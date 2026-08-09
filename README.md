@@ -1,7 +1,5 @@
 # Resume Job Matcher 🤖📄
 
-🎥 **[Watch Demo on YouTube](https://www.youtube.com/watch?v=OicAeBOEFdk)**
-
 An intelligent tool built to analyze and match your resume with job descriptions from uploaded documents or LinkedIn job URLs, powered by Google Gemini API, OCR, Selenium, Streamlit, and Prefect for effective workflow orchestration and monitoring.
 
 ## 🔧 Features
@@ -82,13 +80,10 @@ A Streamlit window will open in your browser. From there, you can:
 ### 🛠️ Technical Components
 
 - config.py: Manages environment configurations.
-- ocr_utils.py: Handle OCR operations for PDFs and images.
 - scraping_utils.py: Scrapes job descriptions from LinkedIn URLs using Selenium.
 - gemini_analyzer.py: Interacts with Google Gemini API to compare resumes and job descriptions.
 - prefect_flow.py: Orchestrates asynchronous workflow and task management with Prefect.
 - streamlit_app.py: Provides the user interface via Streamlit.
-
-### 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 

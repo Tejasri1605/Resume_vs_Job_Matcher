@@ -11,3 +11,8 @@ data/.DS_Store
 
 # Temporary files
 temp_files/
+venv/
+.venv/
+.env
+.env.*
+!.env.example
